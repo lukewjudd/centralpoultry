@@ -12,7 +12,8 @@ body {
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -23,10 +24,16 @@ body {
     opacity: 0.8;
 }
 
+.navbar-fixed-top{
+  background-color: rgb(255, 255, 255);
+}
+
+
 /* Home Page Carousel */
 
 header.carousel {
     height: 50%;
+    margin-bottom: 10px;
 }
 
 header.carousel .item,
@@ -41,6 +48,16 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+
+.panel-body {
+  height: 100%;
+}
+
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
 
 /* 404 Page Styles */
 
